@@ -1,0 +1,104 @@
+/*start main rules*/
+body{height:4000px;}
+.container{width:1170px;margin:auto;}	
+.clearfix{clear:both}
+/*end main rules*/
+/* start the header*/
+.header .slider{background-color:#EEE;height:600px;background-image:url(https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg)
+;/*css3*/;-moz-background-size:cover;-o-background-size:cover;-wepkit-background-size:cover;background-size:cover;}
+.header .slider .intro {text-align:center;color:#FFF;height:600px;padding-top:250px;font-size:50px;} 
+.header .slider .intro h2{margin:0 auto;width:600px;border-bottom:4px solid #FFF;border-top:4px solid #FFF;padding:5px 0} 
+.header .slider .intro button{background:none;border:2px solid #FFF;margin-top:30px;color:#FFF;font-size:20px;font-weight:bold;padding:10px 30px}
+.header .navbar {background-color:#252f31;color:#fff;overflow:hidden;}
+.header .navbar h2{text-transform:uppercase;float:left;	}
+.header .navbar h2 span {color:#2ecc71}
+.header .navbar ul{list-style:none;padding-left:0;}
+.header .navbar ul li{float:right;padding:10px;text-transform:capitalize;}
+.header .navbar ul li a{color:#FFF;text-decoration:none;}
+.header .navbar ul li a:hover {color:#2ecc71}
+/*end the header*/
+/*start featuers*/
+.featuers{overflow:hidden;padding-top:30px;padding-bottom:30px;}
+.featuers .feat{float:left;width:33.33333%;height:150px;}
+.featuers .feat h2{text-transform:uppercase;color:#555}
+.featuers .feat p {color:#888;line-height:1.7}
+/*end featuers*/
+/*start about me*/
+.about-me{background-color:#F2F2F2;overflow:hidden;}
+.about-me .image{float:left;width:40%;}
+.about-me .image img{width:101%; height:490px;}
+.about-me .info{float:left;width:60%;}
+.about-me .info h2 {margin:40px 0 20px 40px;color:#555;}
+.about-me .info > p {margin:10px 0 0 40px;line-height:1.6;}
+.about-me .info >p:last-of-type {margin:30px 0 0 40px;line-height:1.6;}
+.about-me .info p {margin:20px 0 0 40px;color:#666;line-height:1.6;}
+.about-me .info .hobbies{overflow:hidden;margin:20px 0 0 40px}
+.about-me .info .hobbies .content{width:50%;float:left;min-height:100px;overflow:hidden;}
+.about-me .info .hobbies .content h3{color:#555;}
+.about-me .info .hobbies .content .icon{float:left;width:12%;margin-right:5%;}
+.about-me .info .hobbies .content .icon img{max-width:100%;margin:40px 10px 0 0;}
+.about-me .info .hobbies .content .text{float:left;width:83%;}
+.about-me .info .hobbies .content .text p{margin-bottom:5px}
+.about-me .info .hobbies .content .text h3{margin-bottom:5px}
+/*end about me*/
+/*start my skills*/
+.my-skills{padding-bottom:30px;padding-top:30px;overflow:hidden;}
+.my-skills .skills,.my-skills .progress{float:left;width:50%;}
+.my-skills .skills button{color:#2ecc71;background:none;border:3px solid #2ecc71;font-style:bold;padding:10px 30px}
+.my-skills .skills h2{color:#555;text-transform:uppercase}
+.my-skills .skills p {color:#888;line-height:1.6}
+.my-skills .progress h3 {color:#555;margin-bottom:5px;}
+.my-skills .progress div{background-color:#F2F2F2;height:25px;wider:100%}
+.my-skills .progress span{color:#FFF;background-color:#2ecc71;line-height:25px;height:25px;display:block;float:left;text-align:right}
+/*end my skills*/
+/*start resume*/
+.resume{background-color:#F2F2F2;overflow:hidden;padding-bottom:30px;padding-top:30px;}
+.tresume{text-align:center;}
+.resume p{color:#888;line-height:1.6}
+.resume h2 {color:#555;}
+.resume button{color:#2ecc71;background:none;border:3px solid #2ecc71;font-style:bold;padding:10px 30px}
+/*end resume*/
+/*my education*/
+.my-educations{padding-bottom:30px;padding-top:30px;overflow:hidden;}
+.my-educations .exp hr{margin: 20px 0;height:1px;border:0px;background-color:#999}
+.my-educations .main{float:left;width:50%;margin-right:5%}
+.my-educations .main button{color:#2ecc71;background:none;border:3px solid #2ecc71;font-style:bold;padding:10px 30px}
+.my-educations .main h2{color:#555;text-transform:capitalize}
+.my-educations .main p {color:#888;line-height:1.6}
+.my-educations .exp{float:left;width:45%;}
+.my-educations .exp h3 {margin-bottom:8px;margin-top:80px;}
+.my-educations .exp div{background-color:#F2F2F2;height:25px;wider:100%}
+.my-educations .exp span{margin-bottom:8px;display:inline-block;padding:4px 10px;background-color:#2ecc71;color:#FFF;}
+.my-educations .exp span:last-of-type{margin-bottom:8px;display:inline-block;padding:4px 10px;background-color:#2ecc71;color:#FFF;}
+.my-educations .exp p{color:#777;line-height:1.7;}
+/*my education**/
+/*start testmontials*/
+.testmontials{background-color:#F2F2F2;overflow:hidden;padding-bottom:30px;padding-top:30px;}
+.testmontials{text-align:center;}
+/*end testmontials*/
+/*start portflio*/
+.poroflio{padding-bottom:50px;padding-top:70px;text-align:center;}
+.poroflio h2 {}
+.poroflio p {line-height:1.7;color:#666;margin-bottom:30px}
+.poroflio .our-work{overflow:hidden}
+.poroflio .our-work >div {float:left;width:33.333333%;margin-bottom:10px;}
+.poroflio .our-work> div img{width:92%;margin:10px;padding:3px;background-color:#fff;border:1px solid #ccc;}
+/*end portflio*/
+/*start contact me*/
+.contact{background-color:#252f31;overflow:hidden;padding-top:50px;padding-bottom:70px;}
+.contact .form{width:45%;float:left;padding-top:50px;padding-bottom:70px;}
+.contact .info{width:50%;float:left;}
+.contact h2{color:#fff;margin-left:40px}
+.contact p {color:#6A6E71;margin-left:40px;line-height:1.7;}
+.contact p strong {color:#D1D6DA}
+.contact .form label{color:#D1D6DA;}
+.contact .form input[type="text"]{background-color:#4B5557;width:80%;color:#FFF;display:block;border:0px;margin-top:10px;height:25px;}
+.contact .form textarea{background-color:#4B5557;height:200px;margin:10px 0px;width:80%;color:#FFF}
+.contact .form input[type="submit"]{background-color:#191E22;color:#FFF;border:0px;padding:10px 20px}
+/*end contact me*/
+/*start footer*/
+.footer{text-align:center;background-color:#191E22;color:#6A6E71;padding:20px 0;}
+.footer ul{list-style:none;overflow:hidden;}
+.footer li{display:inline-block;margin:0px 5px 0px 0px}
+.footer li img{width:40px;height:40px}
+/*end footer*/
